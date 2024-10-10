@@ -1,9 +1,106 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Página-1" id="Ny3LBz7rWyXtO1jVMCui">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-QvDbp5gupY2i4yeUK6w-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="50" width="480" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="-QvDbp5gupY2i4yeUK6w-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-QvDbp5gupY2i4yeUK6w-4" target="-QvDbp5gupY2i4yeUK6w-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-QvDbp5gupY2i4yeUK6w-4" value="Médico" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="320" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-QvDbp5gupY2i4yeUK6w-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-QvDbp5gupY2i4yeUK6w-5" target="-QvDbp5gupY2i4yeUK6w-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-QvDbp5gupY2i4yeUK6w-5" value="Atendente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="290" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-QvDbp5gupY2i4yeUK6w-7" value="Agendar Consultas&lt;br&gt;Com o Médico" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-QvDbp5gupY2i4yeUK6w-8" value="Realizar &lt;br&gt;Cadastro" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-QvDbp5gupY2i4yeUK6w-9" value="Buscar Médicos&lt;br&gt;por Nome/Especialidade" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="120" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-QvDbp5gupY2i4yeUK6w-10" value="Alterar ou Cancelar&lt;br&gt;Consultas" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-QvDbp5gupY2i4yeUK6w-11" value="Acessar Histórico&lt;br&gt;Médico do&lt;br&gt;Paciente" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-QvDbp5gupY2i4yeUK6w-13" value="Efetuar &lt;br&gt;Consulta" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-QvDbp5gupY2i4yeUK6w-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="-QvDbp5gupY2i4yeUK6w-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="330" as="sourcePoint" />
+            <mxPoint x="570" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="331" />
+              <mxPoint x="570" y="331" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-QvDbp5gupY2i4yeUK6w-15" value="Enviar dados&lt;br&gt;Sobre a Consulta" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-QvDbp5gupY2i4yeUK6w-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-QvDbp5gupY2i4yeUK6w-17" target="-QvDbp5gupY2i4yeUK6w-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-QvDbp5gupY2i4yeUK6w-17" value="Listar Médicos&lt;br&gt;especialistas&lt;br&gt;disponíveis" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-QvDbp5gupY2i4yeUK6w-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-QvDbp5gupY2i4yeUK6w-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="265" as="sourcePoint" />
+            <mxPoint x="100" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-QvDbp5gupY2i4yeUK6w-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="-QvDbp5gupY2i4yeUK6w-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="120" as="sourcePoint" />
+            <mxPoint x="210" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="150" />
+              <mxPoint x="180" y="150" />
+              <mxPoint x="180" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-QvDbp5gupY2i4yeUK6w-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-QvDbp5gupY2i4yeUK6w-1" target="-QvDbp5gupY2i4yeUK6w-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-QvDbp5gupY2i4yeUK6w-1" value="Paciente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="90" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-QvDbp5gupY2i4yeUK6w-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Sistema de Agendamento de Consultas&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="20" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-QvDbp5gupY2i4yeUK6w-26" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-QvDbp5gupY2i4yeUK6w-7" target="-QvDbp5gupY2i4yeUK6w-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="270" as="sourcePoint" />
+            <mxPoint x="440" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-QvDbp5gupY2i4yeUK6w-28" value="Mostrar Médicos&lt;br&gt;Disponíveis" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-QvDbp5gupY2i4yeUK6w-29" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-QvDbp5gupY2i4yeUK6w-28" target="-QvDbp5gupY2i4yeUK6w-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="270" as="sourcePoint" />
+            <mxPoint x="440" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
